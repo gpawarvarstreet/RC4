@@ -18,4 +18,6 @@ end function
 function UnMaskCCNo(DCCNO)
     UnMaskCCNo = RC4(DCCNO,Session.SessionID)
 end function
+Response.Write "test"
+Response.End 
 %>
