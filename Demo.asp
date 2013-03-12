@@ -5,7 +5,7 @@ Dim EncCCNum
 EncCCNum = RC4("7415123615465466",Session.SessionID)
 Response.Write EncCCNum & "<br>"
 Response.Write Now()
-
+Response.End 
 function MaskCCNo(ECCNO)
     Dim XString
     Dim iCount
